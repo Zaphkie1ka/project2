@@ -1,0 +1,49 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:models="clr-namespace:project2.Models"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="project2.MainInt"
+        Title="MainInt">
+    
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Vertical">
+            <Label Content="Студенты"></Label>
+            <DataGrid x:Name="Student"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      GridLinesVisibility="All"
+                      BorderThickness="1"
+                      BorderBrush="Gray"
+                      x:DataType="models:Student"
+                      Margin="0,20">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Имя" Binding= "{Binding Name}"/>
+                    <DataGridTextColumn Header="Контакты" Binding= "{Binding Contact}"/>
+                    <DataGridTextColumn Header="Документ" Binding= "{Binding Passport}"/>
+                    <DataGridTextColumn Header="Адрес" Binding= "{Binding Address}"/>
+                </DataGrid.Columns>
+            </DataGrid> 
+        </StackPanel>
+        <Panel>
+            <Label></Label>
+        </Panel>
+        <StackPanel Orientation="Vertical">
+            <Label Content="Расписание"></Label>
+            <DataGrid x:Name="Schedule"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      GridLinesVisibility="All"
+                      BorderThickness="1"
+                      BorderBrush="Gray"
+                      x:DataType="models:Schedule"
+                      Margin="0,20">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Наименование" Binding= "{Binding Name}"/>
+                    <DataGridTextColumn Header="Время" Binding= "{Binding Time}"/>
+                </DataGrid.Columns>
+            </DataGrid> 
+        </StackPanel>
+    </StackPanel>
+</Window>

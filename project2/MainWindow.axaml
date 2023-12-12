@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="project2.MainWindow"
+        Title="ОБРАЗОВАНИЕ ДОТ РУ">
+        <StackPanel>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Label Content="Образованиедотру" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                        <Label Content="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                        <Label Content="Логин" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"></Label>
+                        <TextBox x:Name="Login" Text="" HorizontalAlignment="Left" Width="350"></TextBox>
+                        <Label Content="Пароль" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"></Label>
+                        <TextBox x:Name="Passwd" Text="" HorizontalAlignment="Left" Width="350"></TextBox>
+                        <Button Content="Войти" Click="Button_OnClick"></Button>
+                </StackPanel>
+        </StackPanel>
+</Window>
