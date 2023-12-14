@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skyri\\RiderProjects\\project2\\project2\\project2.csproj": {}
+    "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skyri\\RiderProjects\\project2\\project2\\project2.csproj": {
+    "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skyri\\RiderProjects\\project2\\project2\\project2.csproj",
+        "projectUniqueName": "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj",
         "projectName": "project2",
-        "projectPath": "C:\\Users\\skyri\\RiderProjects\\project2\\project2\\project2.csproj",
-        "packagesPath": "C:\\Users\\skyri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skyri\\RiderProjects\\project2\\project2\\obj\\",
+        "projectPath": "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj",
+        "packagesPath": "/home/KHPK.RU/student/.nuget/packages/",
+        "outputPath": "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\skyri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/KHPK.RU/student/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,16 +4,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="project2.MainWindow"
-        Title="ОБРАЗОВАНИЕ ДОТ РУ">
-        <StackPanel>
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                        <Label Content="Образованиедотру" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+        Title="EduFive">
+        <StackPanel Background="Gainsboro">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <Label Content=""></Label>
+                        <Label Content="EduFive" Foreground="Cyan" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
                         <Label Content="" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
-                        <Label Content="Логин" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"></Label>
-                        <TextBox x:Name="Login" Text="" HorizontalAlignment="Left" Width="350"></TextBox>
-                        <Label Content="Пароль" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"></Label>
-                        <TextBox x:Name="Passwd" Text="" HorizontalAlignment="Left" Width="350"></TextBox>
-                        <Button Content="Войти" Click="Button_OnClick"></Button>
+                        <Label Content="Логин" Foreground="Cyan" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"></Label>
+                        <TextBox x:Name="Login" Text="" HorizontalAlignment="Left" Width="400"></TextBox>
+                        <Label Content="Пароль" Foreground="Cyan" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"></Label>
+                        <TextBox x:Name="Passwd" Text="" HorizontalAlignment="Left" Width="400" PasswordChar="*" ></TextBox>
+                        <Label Content=""></Label>
+                        <Panel>
+                                <Button Content="Войти" 
+                                        Click="Button_OnClick" 
+                                        HorizontalAlignment="Left" 
+                                        Width="150" 
+                                        HorizontalContentAlignment="Center"></Button>
+                                <Label Content="">
+                                        
+                                </Label>
+                                <Button Content="Забыли пароль?" 
+                                        Click="Button_OnClick1" 
+                                        HorizontalAlignment="Right"
+                                        Width="150"
+                                        HorizontalContentAlignment="Center"></Button>
+                        </Panel>
                 </StackPanel>
         </StackPanel>
 </Window>

@@ -4,16 +4,16 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\skyri\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/KHPK.RU/student/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/KHPK.RU/student/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\skyri\.nuget\packages\" />
+    <SourceRoot Include="/home/KHPK.RU/student/.nuget/packages/" />
   </ItemGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Content Include="$(NuGetPackageRoot)mysql.data.entityframework\8.2.0\contentFiles\any\netstandard2.1\app.config.transform" Condition="Exists('$(NuGetPackageRoot)mysql.data.entityframework\8.2.0\contentFiles\any\netstandard2.1\app.config.transform')">
+    <Content Include="$(NuGetPackageRoot)mysql.data.entityframework/8.2.0/contentFiles/any/netstandard2.1/app.config.transform" Condition="Exists('$(NuGetPackageRoot)mysql.data.entityframework/8.2.0/contentFiles/any/netstandard2.1/app.config.transform')">
       <NuGetPackageId>MySql.Data.EntityFramework</NuGetPackageId>
       <NuGetPackageVersion>8.2.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
@@ -21,7 +21,7 @@
       <Private>False</Private>
       <Link>app.config.transform</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)mysql.data.entityframework\8.2.0\contentFiles\any\netstandard2.1\web.config.transform" Condition="Exists('$(NuGetPackageRoot)mysql.data.entityframework\8.2.0\contentFiles\any\netstandard2.1\web.config.transform')">
+    <Content Include="$(NuGetPackageRoot)mysql.data.entityframework/8.2.0/contentFiles/any/netstandard2.1/web.config.transform" Condition="Exists('$(NuGetPackageRoot)mysql.data.entityframework/8.2.0/contentFiles/any/netstandard2.1/web.config.transform')">
       <NuGetPackageId>MySql.Data.EntityFramework</NuGetPackageId>
       <NuGetPackageVersion>8.2.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
@@ -31,15 +31,15 @@
     </Content>
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.3\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.3\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props')" />
-    <Import Project="$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props')" />
-    <Import Project="$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly\2.8.2.3\buildTransitive\netstandard1.0\HarfBuzzSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly\2.8.2.3\buildTransitive\netstandard1.0\HarfBuzzSharp.NativeAssets.WebAssembly.props')" />
-    <Import Project="$(NuGetPackageRoot)avalonia\11.0.2\buildTransitive\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\11.0.2\buildTransitive\Avalonia.props')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly/2.88.3/buildTransitive/netstandard1.0/SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly/2.88.3/buildTransitive/netstandard1.0/SkiaSharp.NativeAssets.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)entityframework/6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework/6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.props')" />
+    <Import Project="$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly/2.8.2.3/buildTransitive/netstandard1.0/HarfBuzzSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly/2.8.2.3/buildTransitive/netstandard1.0/HarfBuzzSharp.NativeAssets.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)avalonia/11.0.2/buildTransitive/Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia/11.0.2/buildTransitive/Avalonia.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\skyri\.nuget\packages\entityframework\6.4.4</PkgEntityFramework>
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\skyri\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
-    <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">C:\Users\skyri\.nuget\packages\avalonia.buildservices\0.0.28</PkgAvalonia_BuildServices>
-    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\skyri\.nuget\packages\avalonia\11.0.2</PkgAvalonia>
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">/home/KHPK.RU/student/.nuget/packages/entityframework/6.4.4</PkgEntityFramework>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/home/KHPK.RU/student/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">/home/KHPK.RU/student/.nuget/packages/avalonia.buildservices/0.0.28</PkgAvalonia_BuildServices>
+    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">/home/KHPK.RU/student/.nuget/packages/avalonia/11.0.2</PkgAvalonia>
   </PropertyGroup>
 </Project>

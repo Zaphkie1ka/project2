@@ -6,10 +6,28 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="project2.MainInt"
         Title="MainInt">
-    
-    <StackPanel Orientation="Horizontal">
-        <StackPanel Orientation="Vertical">
-            <Label Content="Студенты"></Label>
+    <TabControl>
+        <TabItem Header="Главный экран">
+            <DataGrid x:Name="Student1"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      GridLinesVisibility="All"
+                      BorderThickness="1"
+                      BorderBrush="Gray"
+                      x:DataType="models:Student"
+                      Margin="0,20"
+                      MinHeight="100"
+                      MaxWidth="380"
+                      HorizontalAlignment="Left">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Имя" Binding= "{Binding Name}"/>
+                    <DataGridTextColumn Header="Контакты" Binding= "{Binding Contact}"/>
+                    <DataGridTextColumn Header="Документ" Binding= "{Binding Passport}"/>
+                    <DataGridTextColumn Header="Адрес" Binding= "{Binding Address}"/>
+                </DataGrid.Columns>
+            </DataGrid> 
+        </TabItem>
+        <TabItem Header="Студенты">
             <DataGrid x:Name="Student"
                       AutoGenerateColumns="False"
                       IsReadOnly="True"
@@ -25,12 +43,8 @@
                     <DataGridTextColumn Header="Адрес" Binding= "{Binding Address}"/>
                 </DataGrid.Columns>
             </DataGrid> 
-        </StackPanel>
-        <Panel>
-            <Label></Label>
-        </Panel>
-        <StackPanel Orientation="Vertical">
-            <Label Content="Расписание"></Label>
+        </TabItem>
+        <TabItem Header="Расписание">
             <DataGrid x:Name="Schedule"
                       AutoGenerateColumns="False"
                       IsReadOnly="True"
@@ -43,7 +57,7 @@
                     <DataGridTextColumn Header="Наименование" Binding= "{Binding Name}"/>
                     <DataGridTextColumn Header="Время" Binding= "{Binding Time}"/>
                 </DataGrid.Columns>
-            </DataGrid> 
-        </StackPanel>
-    </StackPanel>
+            </DataGrid>
+        </TabItem>
+    </TabControl>
 </Window>

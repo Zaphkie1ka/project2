@@ -19,4 +19,9 @@ public partial class MainWindow : Window
             window2.Show();
         }
     }
+
+    private void Button_OnClick1(object? sender, RoutedEventArgs e)
+    {
+        throw new System.NotImplementedException();
+    }
 }

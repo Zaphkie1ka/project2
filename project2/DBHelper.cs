@@ -10,10 +10,15 @@ public class DBHelper
     {
         _connectionString = new MySqlConnectionStringBuilder
             {
-                Server = "localhost",
+                /*Server = "localhost",
                 Database = "up",
                 UserID = "zaphkie1",
-                Password = "123456"
+                Password = "123456"*/
+                
+                Server = "10.10.1.24",
+                Database = "pro18",
+                UserID = "user_01",
+                Password = "user01pro"
             };
     }
     
