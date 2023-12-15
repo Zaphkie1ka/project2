@@ -316,3 +316,12 @@ C:/Users/skyri/RiderProjects/project2/project2/obj/Debug/net7.0/ref/project2.dll
 /home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/obj/Debug/net7.0/project2.csproj.CopyComplete
 /home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/obj/Debug/net7.0/project2.genruntimeconfig.cache
 /home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/obj/Debug/net7.0/ref/project2.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/CommunityToolkit.Mvvm.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/LockerHelpers.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/ObservableHelpers.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/SynchronizationContextHelpers.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/ColorTextBlock.Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/DialogHost.Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/Markdown.Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/MsBox.Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/bin/Debug/net7.0/System.Reactive.dll

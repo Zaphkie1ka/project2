@@ -14,8 +14,11 @@
           "Avalonia.Diagnostics": "11.0.2",
           "Avalonia.Fonts.Inter": "11.0.2",
           "Avalonia.Themes.Fluent": "11.0.2",
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "MessageBox.Avalonia": "3.1.3",
           "MySql.Data": "8.2.0",
-          "MySql.Data.EntityFramework": "8.2.0"
+          "MySql.Data.EntityFramework": "8.2.0",
+          "ObservableHelpers": "2.0.10"
         },
         "runtime": {
           "project2.dll": {}
@@ -269,6 +272,37 @@
           }
         }
       },
+      "ColorTextBlock.Avalonia/11.0.0-d1": {
+        "dependencies": {
+          "Avalonia": "11.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/ColorTextBlock.Avalonia.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.2.1"
+          }
+        }
+      },
+      "DialogHost.Avalonia/0.7.6": {
+        "dependencies": {
+          "Avalonia": "11.0.2",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
+            "assemblyVersion": "0.7.6.0",
+            "fileVersion": "0.7.6.0"
+          }
+        }
+      },
       "EntityFramework/6.4.4": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -390,6 +424,39 @@
           "lib/net6.0/K4os.Hash.xxHash.dll": {
             "assemblyVersion": "1.0.8.0",
             "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "LockerHelpers/1.0.3": {
+        "runtime": {
+          "lib/net6.0/LockerHelpers.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Markdown.Avalonia.Tight/11.0.0-d1": {
+        "dependencies": {
+          "Avalonia": "11.0.2",
+          "ColorTextBlock.Avalonia": "11.0.0-d1"
+        },
+        "runtime": {
+          "lib/net6.0/Markdown.Avalonia.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0"
+          }
+        }
+      },
+      "MessageBox.Avalonia/3.1.3": {
+        "dependencies": {
+          "Avalonia": "11.0.2",
+          "DialogHost.Avalonia": "0.7.6",
+          "Markdown.Avalonia.Tight": "11.0.0-d1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -706,6 +773,18 @@
           }
         }
       },
+      "ObservableHelpers/2.0.10": {
+        "dependencies": {
+          "LockerHelpers": "1.0.3",
+          "SynchronizationContextHelpers": "1.0.5"
+        },
+        "runtime": {
+          "lib/net6.0/ObservableHelpers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
@@ -808,6 +887,14 @@
           }
         }
       },
+      "SynchronizationContextHelpers/1.0.5": {
+        "runtime": {
+          "lib/net6.0/SynchronizationContextHelpers.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.CodeDom/4.7.0": {
         "runtime": {
@@ -903,6 +990,14 @@
       },
       "System.Memory/4.5.4": {},
       "System.Numerics.Vectors/4.5.0": {},
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1161,6 +1256,27 @@
       "path": "bouncycastle.cryptography/2.2.1",
       "hashPath": "bouncycastle.cryptography.2.2.1.nupkg.sha512"
     },
+    "ColorTextBlock.Avalonia/11.0.0-d1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQAZgCwCS7vT5qGlxivrx6WAb1xkP47p4gAVmv5GQapfW8YXuk9a/t6QLmjJqFTJAAdk8M1EAUde0Ox5HPxjHA==",
+      "path": "colortextblock.avalonia/11.0.0-d1",
+      "hashPath": "colortextblock.avalonia.11.0.0-d1.nupkg.sha512"
+    },
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "hashPath": "communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+    },
+    "DialogHost.Avalonia/0.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LOqDKWjcDRqk1V0WcZ9s3ZfeK5byI13zxn+wCMTdbfR8nxKdegOaf2cRTrSpBKf64o07EwBOA2blNn+Bx4w1mA==",
+      "path": "dialoghost.avalonia/0.7.6",
+      "hashPath": "dialoghost.avalonia.0.7.6.nupkg.sha512"
+    },
     "EntityFramework/6.4.4": {
       "type": "package",
       "serviceable": true,
@@ -1230,6 +1346,27 @@
       "sha512": "sha512-Wp2F7BamQ2Q/7Hk834nV9vRQapgcr8kgv9Jvfm8J3D0IhDqZMMl+a2yxUq5ltJitvXvQfB8W6K4F4fCbw/P6YQ==",
       "path": "k4os.hash.xxhash/1.0.8",
       "hashPath": "k4os.hash.xxhash.1.0.8.nupkg.sha512"
+    },
+    "LockerHelpers/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oqDgCtqzdYEHG0DVCb37kUrfKh4ZuqV5SfBO3Q5XOEis1tDNiMHFObU95Ffz4oYHYr54ctgLUoVOXJPzi2yx2A==",
+      "path": "lockerhelpers/1.0.3",
+      "hashPath": "lockerhelpers.1.0.3.nupkg.sha512"
+    },
+    "Markdown.Avalonia.Tight/11.0.0-d1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fwl4wrvTdLFLUfkFezRY6SSfPmXIJcRyYChMDiMKFEGo1rKdPMnmcJbK+BWYXxZS+g66E6SFl/ca4kakhTk1HQ==",
+      "path": "markdown.avalonia.tight/11.0.0-d1",
+      "hashPath": "markdown.avalonia.tight.11.0.0-d1.nupkg.sha512"
+    },
+    "MessageBox.Avalonia/3.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4RPkll62iBp/pTrLcG/WAbu2FGOD6X5dkmGweBsSbwBjCKcDhZ1kQDLny5kuCFeJIo1RL6OtRtjMJT6/ZbLPHQ==",
+      "path": "messagebox.avalonia/3.1.3",
+      "hashPath": "messagebox.avalonia.3.1.3.nupkg.sha512"
     },
     "MicroCom.Runtime/0.11.0": {
       "type": "package",
@@ -1322,6 +1459,13 @@
       "path": "mysql.data.entityframework/8.2.0",
       "hashPath": "mysql.data.entityframework.8.2.0.nupkg.sha512"
     },
+    "ObservableHelpers/2.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lmal2Q1qeS4O5jnFfxstw5RHwqtOXyLLmV2YX8mt1EyTqzMmaDYyajqsba605MzK/ySTc7uJX9SByK/7PmP1XQ==",
+      "path": "observablehelpers/2.0.10",
+      "hashPath": "observablehelpers.2.0.10.nupkg.sha512"
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -1384,6 +1528,13 @@
       "sha512": "sha512-MU4ASL8VAbTv5vSw1PoiWjjjpjtGhWtFYuJnrN4sNHFCePb2ohQij9JhSdqLLxk7RpRtWPdV93fbA53Pt+J0yw==",
       "path": "skiasharp.nativeassets.win32/2.88.3",
       "hashPath": "skiasharp.nativeassets.win32.2.88.3.nupkg.sha512"
+    },
+    "SynchronizationContextHelpers/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tIHkxVzD5C5k2BsioAOTDftVXPjiLW3N/vqfjoLLrUDjCqan05bElAh62A7a1DjHkUT2CbCi9RrzpIhPwAcuvA==",
+      "path": "synchronizationcontexthelpers/1.0.5",
+      "hashPath": "synchronizationcontexthelpers.1.0.5.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",
@@ -1468,6 +1619,13 @@
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",

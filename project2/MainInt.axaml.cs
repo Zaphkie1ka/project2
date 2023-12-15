@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using MySql.Data.MySqlClient;
 using project2.Models;
@@ -63,4 +64,40 @@ public partial class MainInt : Window
             
         }
     }
+
+    private void Button_OnClick(object? sender, RoutedEventArgs e)
+    {
+        Panel1.IsVisible = false;
+        Panel2.IsVisible = false;
+        Panel3.IsVisible = false;
+        /*if (splitView.IsPaneOpen == true)
+        {
+            splitView.IsPaneOpen = false;
+        }
+        else
+            splitView.IsPaneOpen = true;*/
+    }
+
+    private void Button_OnClick1(object? sender, RoutedEventArgs e)
+    {
+        Panel1.IsVisible = true;
+        Panel2.IsVisible = false;
+        Panel3.IsVisible = false;
+    }
+
+    private void Button_OnClick2(object? sender, RoutedEventArgs e)
+    {
+        Panel1.IsVisible = false;
+        Panel2.IsVisible = true;
+        Panel3.IsVisible = false;
+    }
+
+    private void Button_OnClick3(object? sender, RoutedEventArgs e)
+    {
+        Panel1.IsVisible = false;
+        Panel2.IsVisible = false;
+        Panel3.IsVisible = true;
+    }
+
+    
 }

@@ -8,24 +8,79 @@
         Title="MainInt">
     <TabControl>
         <TabItem Header="Главный экран">
-            <DataGrid x:Name="Student1"
-                      AutoGenerateColumns="False"
-                      IsReadOnly="True"
-                      GridLinesVisibility="All"
-                      BorderThickness="1"
-                      BorderBrush="Gray"
-                      x:DataType="models:Student"
-                      Margin="0,20"
-                      MinHeight="100"
-                      MaxWidth="380"
-                      HorizontalAlignment="Left">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Имя" Binding= "{Binding Name}"/>
-                    <DataGridTextColumn Header="Контакты" Binding= "{Binding Contact}"/>
-                    <DataGridTextColumn Header="Документ" Binding= "{Binding Passport}"/>
-                    <DataGridTextColumn Header="Адрес" Binding= "{Binding Address}"/>
-                </DataGrid.Columns>
-            </DataGrid> 
+            <StackPanel Orientation="Horizontal">
+                <SplitView x:Name="splitView"
+                           DisplayMode="CompactInline"
+                           OpenPaneLength="90"
+                           CompactPaneLength="90"
+                           IsPaneOpen="False">
+                    <SplitView.Pane>
+                        <StackPanel>
+                            <Button Content="-" Click="Button_OnClick"></Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Content="Основной" Click="Button_OnClick1"></Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Content="Учебники" Click="Button_OnClick2"></Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Content="ДО" Click="Button_OnClick3"></Button>
+                        </StackPanel>
+                    </SplitView.Pane>
+                </SplitView>
+                <StackPanel x:Name="Panel1" Orientation="Horizontal">
+                    <Label></Label>
+                    <StackPanel Orientation="Vertical">
+                    <Label Content="Студенты"></Label>
+                    <DataGrid x:Name="Student1"
+                              AutoGenerateColumns="False"
+                              IsReadOnly="True"
+                              GridLinesVisibility="All"
+                              BorderThickness="1"
+                              BorderBrush="Gray"
+                              x:DataType="models:Student"
+                              Margin="0,20"
+                              MaxWidth="380"
+                              HorizontalAlignment="Left">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Имя" Binding= "{Binding Name}"/>
+                            <DataGridTextColumn Header="Контакты" Binding= "{Binding Contact}"/>
+                            <DataGridTextColumn Header="Документ" Binding= "{Binding Passport}"/>
+                            <DataGridTextColumn Header="Адрес" Binding= "{Binding Address}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+                <Label></Label>
+                <StackPanel Orientation="Vertical">
+                    <Label Content="Расписание"></Label>
+                    <DataGrid x:Name="Schedule1"
+                              AutoGenerateColumns="False"
+                              IsReadOnly="True"
+                              GridLinesVisibility="All"
+                              BorderThickness="1"
+                              BorderBrush="Gray"
+                              x:DataType="models:Schedule"
+                              Margin="0,20">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Наименование" Binding= "{Binding Name}"/>
+                            <DataGridTextColumn Header="Время" Binding= "{Binding Time}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+                </StackPanel>
+                <StackPanel x:Name="Panel2" IsVisible="False" Orientation="Horizontal">
+                    <Label Content=""></Label>
+                    <StackPanel Orientation="Vertical">
+                        <Label Content="Просмотр всех источников"></Label>
+                        <ListBox x:Name="listBox1">
+                            <ListBoxItem>"Чистый код"</ListBoxItem>
+                            <ListBoxItem>"Совершенный код"</ListBoxItem>
+                            <ListBoxItem>“Программист-прагматик. Путь от подмастерья к мастеру”</ListBoxItem>
+                            <ListBoxItem>“Эффективная работа с унаследованным кодом”</ListBoxItem>
+                            <ListBoxItem>"“Код. Тайный язык информатики”</ListBoxItem>
+                        </ListBox>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel x:Name="Panel3" IsVisible="False" Orientation="Horizontal">
+                    <Label Content="Для студентов заочного отделения предусмотрена "></Label>
+                </StackPanel>
+            </StackPanel>
+            
         </TabItem>
         <TabItem Header="Студенты">
             <DataGrid x:Name="Student"

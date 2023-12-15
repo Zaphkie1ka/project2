@@ -22,6 +22,9 @@
 /home/KHPK.RU/student/.nuget/packages/avalonia.win32/11.0.2/lib/net6.0/Avalonia.Win32.dll
 /home/KHPK.RU/student/.nuget/packages/avalonia.x11/11.0.2/lib/net6.0/Avalonia.X11.dll
 /home/KHPK.RU/student/.nuget/packages/bouncycastle.cryptography/2.2.1/lib/net6.0/BouncyCastle.Cryptography.dll
+/home/KHPK.RU/student/.nuget/packages/colortextblock.avalonia/11.0.0-d1/lib/net6.0/ColorTextBlock.Avalonia.dll
+/home/KHPK.RU/student/.nuget/packages/communitytoolkit.mvvm/8.2.2/lib/net6.0/CommunityToolkit.Mvvm.dll
+/home/KHPK.RU/student/.nuget/packages/dialoghost.avalonia/0.7.6/lib/netstandard2.0/DialogHost.Avalonia.dll
 /home/KHPK.RU/student/.nuget/packages/entityframework/6.4.4/lib/netstandard2.1/EntityFramework.dll
 /home/KHPK.RU/student/.nuget/packages/entityframework/6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.dll
 /home/KHPK.RU/student/.nuget/packages/google.protobuf/3.21.9/lib/net5.0/Google.Protobuf.dll
@@ -29,6 +32,8 @@
 /home/KHPK.RU/student/.nuget/packages/k4os.compression.lz4/1.3.5/lib/net6.0/K4os.Compression.LZ4.dll
 /home/KHPK.RU/student/.nuget/packages/k4os.compression.lz4.streams/1.3.5/lib/net6.0/K4os.Compression.LZ4.Streams.dll
 /home/KHPK.RU/student/.nuget/packages/k4os.hash.xxhash/1.0.8/lib/net6.0/K4os.Hash.xxHash.dll
+/home/KHPK.RU/student/.nuget/packages/lockerhelpers/1.0.3/lib/net6.0/LockerHelpers.dll
+/home/KHPK.RU/student/.nuget/packages/markdown.avalonia.tight/11.0.0-d1/lib/net6.0/Markdown.Avalonia.dll
 /home/KHPK.RU/student/.nuget/packages/microcom.runtime/0.11.0/lib/net5.0/MicroCom.Runtime.dll
 /home/KHPK.RU/student/.nuget/packages/microsoft.codeanalysis.csharp/3.8.0/lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll
 /home/KHPK.RU/student/.nuget/packages/microsoft.codeanalysis.csharp.scripting/3.8.0/lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Scripting.dll
@@ -40,11 +45,14 @@
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/Microsoft.Win32.Primitives.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/Microsoft.Win32.Registry.dll
 /home/KHPK.RU/student/.nuget/packages/microsoft.win32.systemevents/6.0.0/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/KHPK.RU/student/.nuget/packages/messagebox.avalonia/3.1.3/lib/netstandard2.0/MsBox.Avalonia.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/mscorlib.dll
 /home/KHPK.RU/student/.nuget/packages/mysql.data/8.2.0/lib/net7.0/MySql.Data.dll
 /home/KHPK.RU/student/.nuget/packages/mysql.data.entityframework/8.2.0/lib/netstandard2.1/MySql.Data.EntityFramework.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/netstandard.dll
+/home/KHPK.RU/student/.nuget/packages/observablehelpers/2.0.10/lib/net6.0/ObservableHelpers.dll
 /home/KHPK.RU/student/.nuget/packages/skiasharp/2.88.3/lib/net6.0/SkiaSharp.dll
+/home/KHPK.RU/student/.nuget/packages/synchronizationcontexthelpers/1.0.5/lib/net6.0/SynchronizationContextHelpers.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/System.AppContext.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/System.Buffers.dll
 /home/KHPK.RU/student/.nuget/packages/system.codedom/4.7.0/ref/netstandard2.0/System.CodeDom.dll
@@ -130,6 +138,7 @@
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/System.Numerics.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/System.Numerics.Vectors.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/System.ObjectModel.dll
+/home/KHPK.RU/student/.nuget/packages/system.reactive/6.0.0/lib/net6.0/System.Reactive.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/System.Reflection.DispatchProxy.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/System.Reflection.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.9/ref/net7.0/System.Reflection.Emit.dll
