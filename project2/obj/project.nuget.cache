@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tl3PLgzzMfKVi+eKEXrEMpV5GLyDuYAGnsgSm9TeJ7qQyLSpHWW23G8QRtIuuNtF1e3GjEUF31SJcxY7k7wVow==",
+  "dgSpecHash": "38Dt7g4qoMeh0kXBiJaFUTivgf0Iz0UPUeFHt3v04TkPBdwb60S0xr2Jlb8v05uvkbKjKsHAaztatAZoNbqR4Q==",
   "success": true,
-  "projectFilePath": "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj",
+  "projectFilePath": "/home/KHPK.RU/student/RiderProjects/project2/project2/project2.csproj",
   "expectedPackageFiles": [
     "/home/KHPK.RU/student/.nuget/packages/avalonia/11.0.2/avalonia.11.0.2.nupkg.sha512",
     "/home/KHPK.RU/student/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2023020321/avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

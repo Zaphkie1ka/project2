@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj": {}
+    "/home/KHPK.RU/student/RiderProjects/project2/project2/project2.csproj": {}
   },
   "projects": {
-    "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj": {
+    "/home/KHPK.RU/student/RiderProjects/project2/project2/project2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj",
+        "projectUniqueName": "/home/KHPK.RU/student/RiderProjects/project2/project2/project2.csproj",
         "projectName": "project2",
-        "projectPath": "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/project2.csproj",
+        "projectPath": "/home/KHPK.RU/student/RiderProjects/project2/project2/project2.csproj",
         "packagesPath": "/home/KHPK.RU/student/.nuget/packages/",
-        "outputPath": "/home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/obj/",
+        "outputPath": "/home/KHPK.RU/student/RiderProjects/project2/project2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/KHPK.RU/student/.nuget/NuGet/NuGet.Config"

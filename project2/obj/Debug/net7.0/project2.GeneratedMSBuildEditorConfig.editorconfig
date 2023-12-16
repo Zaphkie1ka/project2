@@ -13,13 +13,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = project2
-build_property.ProjectDir = /home/KHPK.RU/student/Рабочий стол/AAA/AAAC#/project2/project2/
+build_property.ProjectDir = /home/KHPK.RU/student/RiderProjects/project2/project2/
 
-[/home/KHPK.RU/student/Рабочий стол/AAA/AAAC\#/project2/project2/App.axaml]
+[/home/KHPK.RU/student/RiderProjects/project2/project2/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/KHPK.RU/student/Рабочий стол/AAA/AAAC\#/project2/project2/MainInt.axaml]
+[/home/KHPK.RU/student/RiderProjects/project2/project2/MainInt.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/KHPK.RU/student/Рабочий стол/AAA/AAAC\#/project2/project2/MainWindow.axaml]
+[/home/KHPK.RU/student/RiderProjects/project2/project2/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
