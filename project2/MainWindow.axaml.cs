@@ -17,10 +17,10 @@ public partial class MainWindow : Window
     
     private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
-        /*if (Login.Text == "Teacher" && Passwd.Text == "123456")
+        if (Login.Text == "Teacher" && Passwd.Text == "123456")
         {
             window2.Show();
-        }*/
+        }
     }
 
     private async void Button_OnClick1(object? sender, RoutedEventArgs e)

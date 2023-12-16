@@ -11,15 +11,15 @@
             <StackPanel Orientation="Horizontal">
                 <SplitView x:Name="splitView"
                            DisplayMode="CompactInline"
-                           OpenPaneLength="90"
+                           OpenPaneLength="390"
                            CompactPaneLength="90"
                            IsPaneOpen="False">
                     <SplitView.Pane>
                         <StackPanel>
-                            <Button Content="-" Click="Button_OnClick"></Button>
                             <Button Width="90" HorizontalContentAlignment="Center" Content="Основной" Click="Button_OnClick1"></Button>
                             <Button Width="90" HorizontalContentAlignment="Center" Content="Учебники" Click="Button_OnClick2"></Button>
                             <Button Width="90" HorizontalContentAlignment="Center" Content="ДО" Click="Button_OnClick3"></Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Content="ДО" Click="Button_OnClick4"></Button>
                         </StackPanel>
                     </SplitView.Pane>
                 </SplitView>
@@ -38,7 +38,8 @@
                               MaxWidth="380"
                               HorizontalAlignment="Left">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="Имя" Binding= "{Binding Name}"/>
+                            <DataGridTextColumn Header="ФИО" Binding= "{Binding Name}"/>
+                            <DataGridTextColumn Header="Дата рождения" Binding= "{Binding Birthday}"/>
                             <DataGridTextColumn Header="Контакты" Binding= "{Binding Contact}"/>
                             <DataGridTextColumn Header="Документ" Binding= "{Binding Passport}"/>
                             <DataGridTextColumn Header="Адрес" Binding= "{Binding Address}"/>
@@ -66,7 +67,7 @@
                 <StackPanel x:Name="Panel2" IsVisible="False" Orientation="Horizontal">
                     <Label Content=""></Label>
                     <StackPanel Orientation="Vertical">
-                        <Label Content="Просмотр всех источников"></Label>
+                        <Label Content="Дополнительные источники знаний"></Label>
                         <ListBox x:Name="listBox1">
                             <ListBoxItem>"Чистый код"</ListBoxItem>
                             <ListBoxItem>"Совершенный код"</ListBoxItem>
@@ -77,7 +78,14 @@
                     </StackPanel>
                 </StackPanel>
                 <StackPanel x:Name="Panel3" IsVisible="False" Orientation="Horizontal">
-                    <Label Content="Для студентов заочного отделения предусмотрена "></Label>
+                    <Label Content="Для студентов заочного отделения предусмотрена возможность обучения"></Label>
+                    <Label Content="учиться дистанционно"></Label>
+                </StackPanel>
+                <StackPanel x:Name="Panel4" IsVisible="False" Orientation="Horizontal">
+                    <StackPanel Orientation="Vertical">
+                        <Label Content="Преподаватели"></Label>
+                        
+                    </StackPanel>
                 </StackPanel>
             </StackPanel>
             
@@ -92,7 +100,9 @@
                       x:DataType="models:Student"
                       Margin="0,20">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Имя" Binding= "{Binding Name}"/>
+                    <DataGridTextColumn Header="Счет" Binding= "{Binding ID}"/>
+                    <DataGridTextColumn Header="ФИО" Binding= "{Binding Name}"/>
+                    <DataGridTextColumn Header="Дата рождения" Binding= "{Binding Birthday}"/>
                     <DataGridTextColumn Header="Контакты" Binding= "{Binding Contact}"/>
                     <DataGridTextColumn Header="Документ" Binding= "{Binding Passport}"/>
                     <DataGridTextColumn Header="Адрес" Binding= "{Binding Address}"/>

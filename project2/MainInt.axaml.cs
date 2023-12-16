@@ -13,7 +13,6 @@ public partial class MainInt : Window
 {
     private List<Student> _student;
     private List<Schedule> _schedule;
-
     public MainInt()
     {
         InitializeComponent();
@@ -38,6 +37,7 @@ public partial class MainInt : Window
                         {
                             ID = reader.GetInt32("ID"),
                             Name = reader.GetString("Name"),
+                            Birthday = reader.GetString("Birthday"),
                             Contact = reader.GetInt32("Contact"),
                             Passport = reader.GetInt32("Passport"),
                             Address = reader.GetString("Address")
@@ -65,24 +65,25 @@ public partial class MainInt : Window
         }
     }
 
-    private void Button_OnClick(object? sender, RoutedEventArgs e)
+    /*private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
         Panel1.IsVisible = false;
         Panel2.IsVisible = false;
         Panel3.IsVisible = false;
-        /*if (splitView.IsPaneOpen == true)
+        if (splitView.IsPaneOpen == true)
         {
             splitView.IsPaneOpen = false;
         }
         else
-            splitView.IsPaneOpen = true;*/
-    }
+            splitView.IsPaneOpen = true;
+    }*/
 
     private void Button_OnClick1(object? sender, RoutedEventArgs e)
     {
         Panel1.IsVisible = true;
         Panel2.IsVisible = false;
         Panel3.IsVisible = false;
+        Panel4.IsVisible = false;
     }
 
     private void Button_OnClick2(object? sender, RoutedEventArgs e)
@@ -90,6 +91,7 @@ public partial class MainInt : Window
         Panel1.IsVisible = false;
         Panel2.IsVisible = true;
         Panel3.IsVisible = false;
+        Panel4.IsVisible = false;
     }
 
     private void Button_OnClick3(object? sender, RoutedEventArgs e)
@@ -97,7 +99,15 @@ public partial class MainInt : Window
         Panel1.IsVisible = false;
         Panel2.IsVisible = false;
         Panel3.IsVisible = true;
+        Panel4.IsVisible = false;
     }
 
-    
+
+    private void Button_OnClick4(object? sender, RoutedEventArgs e)
+    {
+        Panel1.IsVisible = false;
+        Panel2.IsVisible = false;
+        Panel3.IsVisible = false;
+        Panel4.IsVisible = true;
+    }
 }
