@@ -90,7 +90,9 @@
                 </StackPanel>
                 <StackPanel x:Name="Panel3" IsVisible="False" Orientation="Horizontal">
                     <Label Content="Для студентов заочного отделения предусмотрена возможность обучения учиться дистанционно"></Label>
-                    
+                    <TextBlock>
+                        
+                    </TextBlock>
                 </StackPanel>
                 <StackPanel x:Name="Panel4" IsVisible="False" Orientation="Horizontal">
                     <StackPanel Orientation="Vertical">
@@ -102,7 +104,9 @@
                         </ListBox>
                     </StackPanel>
                 </StackPanel>
-                <StackPanel x:Name="Panel5" IsVisible="False" Orientation="Horizontal"></StackPanel>
+                <StackPanel x:Name="Panel5" IsVisible="False" Orientation="Horizontal">
+                    <Label Content="Оценки"></Label>
+                </StackPanel>
             </StackPanel>
         </TabItem>
         <TabItem Header="Студенты">

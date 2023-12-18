@@ -557,6 +557,32 @@
           }
         }
       },
+      "Hyperlinq/1.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/Hyperlinq.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net40-client/Hyperlinq.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "HyperText.Avalonia/11.0.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0-rc1.1",
+          "Avalonia.Desktop": "11.0.0-rc1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/HyperText.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/HyperText.Avalonia.dll": {}
+        }
+      },
       "K4os.Compression.LZ4/1.3.5": {
         "type": "package",
         "compile": {
@@ -2515,6 +2541,31 @@
         "runtimes/win-arm64/native/libHarfBuzzSharp.dll",
         "runtimes/win-x64/native/libHarfBuzzSharp.dll",
         "runtimes/win-x86/native/libHarfBuzzSharp.dll"
+      ]
+    },
+    "Hyperlinq/1.0.7": {
+      "sha512": "0+QiXDoz78r+SipL/ObagqOUIQGn24yJlqn5ssp5ofuqPYY4bKiJ1ByKCfWQsoUxhbrjH95HPx03hHLeS31ezQ==",
+      "type": "package",
+      "path": "hyperlinq/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hyperlinq.1.0.7.nupkg.sha512",
+        "hyperlinq.nuspec",
+        "lib/net40-client/Hyperlinq.XML",
+        "lib/net40-client/Hyperlinq.dll"
+      ]
+    },
+    "HyperText.Avalonia/11.0.0-rc1": {
+      "sha512": "6lSySPaSk5u9ne6Jn93f9YqCpjwEi6SCRBCBoAp2cghTnMHpJMpM5/qBx4O4v0e8yHrsrEDm2OioC9TnoIpSsA==",
+      "type": "package",
+      "path": "hypertext.avalonia/11.0.0-rc1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hypertext.avalonia.11.0.0-rc1.nupkg.sha512",
+        "hypertext.avalonia.nuspec",
+        "lib/netstandard2.0/HyperText.Avalonia.dll"
       ]
     },
     "K4os.Compression.LZ4/1.3.5": {
@@ -4837,6 +4888,8 @@
       "Avalonia.Themes.Fluent >= 11.0.2",
       "CommunityToolkit.Mvvm >= 8.2.2",
       "FluentIcons.Avalonia >= 1.1.224",
+      "HyperText.Avalonia >= 11.0.0-rc1",
+      "Hyperlinq >= 1.0.7",
       "MessageBox.Avalonia >= 3.1.3",
       "MySql.Data >= 8.2.0",
       "MySql.Data.EntityFramework >= 8.2.0",
@@ -4912,6 +4965,14 @@
             "target": "Package",
             "version": "[1.1.224, )"
           },
+          "HyperText.Avalonia": {
+            "target": "Package",
+            "version": "[11.0.0-rc1, )"
+          },
+          "Hyperlinq": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
           "MessageBox.Avalonia": {
             "target": "Package",
             "version": "[3.1.3, )"
@@ -4948,5 +5009,17 @@
         "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Hyperlinq 1.0.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Hyperlinq",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

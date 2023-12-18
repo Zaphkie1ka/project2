@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q9QIbxBiJjkDhu3bWXLpiWnodcuMrZpRjb4K2Q3rJ8OCNOMo4SlVj0PBQkVCD8prv5EyAn7mnsqmjNr6oau2FQ==",
+  "dgSpecHash": "I79qII7dgPKU0NKvXXnUXqwcT8ffjCm4FZ72Bmem+On/bM1ssfxdV2/o6LMudIBlp+aoQxCbcWHVprn1/6S26w==",
   "success": true,
   "projectFilePath": "/home/KHPK.RU/student/Рабочий стол/ИС(ПРО)-42/project2/project2/project2.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,8 @@
     "/home/KHPK.RU/student/.nuget/packages/harfbuzzsharp.nativeassets.macos/2.8.2.3/harfbuzzsharp.nativeassets.macos.2.8.2.3.nupkg.sha512",
     "/home/KHPK.RU/student/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/2.8.2.3/harfbuzzsharp.nativeassets.webassembly.2.8.2.3.nupkg.sha512",
     "/home/KHPK.RU/student/.nuget/packages/harfbuzzsharp.nativeassets.win32/2.8.2.3/harfbuzzsharp.nativeassets.win32.2.8.2.3.nupkg.sha512",
+    "/home/KHPK.RU/student/.nuget/packages/hyperlinq/1.0.7/hyperlinq.1.0.7.nupkg.sha512",
+    "/home/KHPK.RU/student/.nuget/packages/hypertext.avalonia/11.0.0-rc1/hypertext.avalonia.11.0.0-rc1.nupkg.sha512",
     "/home/KHPK.RU/student/.nuget/packages/k4os.compression.lz4/1.3.5/k4os.compression.lz4.1.3.5.nupkg.sha512",
     "/home/KHPK.RU/student/.nuget/packages/k4os.compression.lz4.streams/1.3.5/k4os.compression.lz4.streams.1.3.5.nupkg.sha512",
     "/home/KHPK.RU/student/.nuget/packages/k4os.hash.xxhash/1.0.8/k4os.hash.xxhash.1.0.8.nupkg.sha512",
@@ -96,5 +98,16 @@
     "/home/KHPK.RU/student/.nuget/packages/tmds.dbus.protocol/0.15.0/tmds.dbus.protocol.0.15.0.nupkg.sha512",
     "/home/KHPK.RU/student/.nuget/packages/zstdsharp.port/0.7.1/zstdsharp.port.0.7.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Hyperlinq 1.0.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Hyperlinq",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
