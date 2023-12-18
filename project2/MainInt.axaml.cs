@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using MsBox.Avalonia;
+using MsBox.Avalonia.Enums;
 using MySql.Data.MySqlClient;
 using project2.Models;
 
@@ -65,6 +68,14 @@ public partial class MainInt : Window
         }
     }
 
+    public void Visible()
+    {
+        Panel1.IsVisible = false;
+        Panel2.IsVisible = false;
+        Panel3.IsVisible = false;
+        Panel4.IsVisible = false;
+        Panel5.IsVisible = false;
+    }
     /*private void Button_OnClick(object? sender, RoutedEventArgs e)
     {
         Panel1.IsVisible = false;
@@ -80,34 +91,39 @@ public partial class MainInt : Window
 
     private void Button_OnClick1(object? sender, RoutedEventArgs e)
     {
+        Visible();
         Panel1.IsVisible = true;
-        Panel2.IsVisible = false;
-        Panel3.IsVisible = false;
-        Panel4.IsVisible = false;
     }
 
     private void Button_OnClick2(object? sender, RoutedEventArgs e)
     {
-        Panel1.IsVisible = false;
+        Visible();
         Panel2.IsVisible = true;
-        Panel3.IsVisible = false;
-        Panel4.IsVisible = false;
     }
 
     private void Button_OnClick3(object? sender, RoutedEventArgs e)
     {
-        Panel1.IsVisible = false;
-        Panel2.IsVisible = false;
+        Visible();
         Panel3.IsVisible = true;
-        Panel4.IsVisible = false;
     }
 
 
     private void Button_OnClick4(object? sender, RoutedEventArgs e)
     {
-        Panel1.IsVisible = false;
-        Panel2.IsVisible = false;
-        Panel3.IsVisible = false;
+        Visible();
         Panel4.IsVisible = true;
+    }
+
+    private void Button_OnClick5(object? sender, RoutedEventArgs e)
+    {
+        Visible();
+        Panel5.IsVisible = true;
+    }
+
+    
+    private void Item1_OnDoubleTapped(object? sender, TappedEventArgs e)
+    {
+        
+        MessageBoxManager.GetMessageBoxStandard("Информация!", "Левекова А. В. преподает основы предпринимательской деятельности", ButtonEnum.Ok);
     }
 }

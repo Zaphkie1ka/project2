@@ -3,7 +3,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:models="clr-namespace:project2.Models"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="1100" d:DesignHeight="450"
         x:Class="project2.MainInt"
         Title="MainInt">
     <TabControl>
@@ -11,15 +11,26 @@
             <StackPanel Orientation="Horizontal">
                 <SplitView x:Name="splitView"
                            DisplayMode="CompactInline"
-                           OpenPaneLength="390"
+                           OpenPaneLength="90"
                            CompactPaneLength="90"
                            IsPaneOpen="False">
                     <SplitView.Pane>
                         <StackPanel>
-                            <Button Width="90" HorizontalContentAlignment="Center" Content="Основной" Click="Button_OnClick1"></Button>
-                            <Button Width="90" HorizontalContentAlignment="Center" Content="Учебники" Click="Button_OnClick2"></Button>
-                            <Button Width="90" HorizontalContentAlignment="Center" Content="ДО" Click="Button_OnClick3"></Button>
-                            <Button Width="90" HorizontalContentAlignment="Center" Content="ДО" Click="Button_OnClick4"></Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Click="Button_OnClick1">
+                                <PathIcon Data="{StaticResource home_regular}"></PathIcon>
+                            </Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Click="Button_OnClick2">
+                                <PathIcon Data="{StaticResource book_database_regular}"></PathIcon>
+                            </Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Click="Button_OnClick3">
+                                <PathIcon Data="{StaticResource note_regular}"></PathIcon>
+                            </Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Click="Button_OnClick4">
+                                <PathIcon Data="{StaticResource people_community_add_regular}"></PathIcon>
+                            </Button>
+                            <Button Width="90" HorizontalContentAlignment="Center" Click="Button_OnClick5">
+                                <PathIcon Data="{StaticResource checkmark_regular}"></PathIcon>
+                            </Button>
                         </StackPanel>
                     </SplitView.Pane>
                 </SplitView>
@@ -35,7 +46,7 @@
                               BorderBrush="Gray"
                               x:DataType="models:Student"
                               Margin="0,20"
-                              MaxWidth="380"
+                              MaxWidth="500"
                               HorizontalAlignment="Left">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="ФИО" Binding= "{Binding Name}"/>
@@ -73,22 +84,26 @@
                             <ListBoxItem>"Совершенный код"</ListBoxItem>
                             <ListBoxItem>“Программист-прагматик. Путь от подмастерья к мастеру”</ListBoxItem>
                             <ListBoxItem>“Эффективная работа с унаследованным кодом”</ListBoxItem>
-                            <ListBoxItem>"“Код. Тайный язык информатики”</ListBoxItem>
+                            <ListBoxItem>"Код. Тайный язык информатики”</ListBoxItem>
                         </ListBox>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel x:Name="Panel3" IsVisible="False" Orientation="Horizontal">
-                    <Label Content="Для студентов заочного отделения предусмотрена возможность обучения"></Label>
-                    <Label Content="учиться дистанционно"></Label>
+                    <Label Content="Для студентов заочного отделения предусмотрена возможность обучения учиться дистанционно"></Label>
+                    
                 </StackPanel>
                 <StackPanel x:Name="Panel4" IsVisible="False" Orientation="Horizontal">
                     <StackPanel Orientation="Vertical">
                         <Label Content="Преподаватели"></Label>
-                        
+                        <ListBox x:Name="listBox2">
+                            <ListBoxItem x:Name="Item1" DoubleTapped="Item1_OnDoubleTapped">Левекова А. В.</ListBoxItem>
+                            <ListBoxItem x:Name="Item2">Догицын Д. А.</ListBoxItem>
+                            <ListBoxItem x:Name="Item3">Долгунов Е. Н.</ListBoxItem>
+                        </ListBox>
                     </StackPanel>
                 </StackPanel>
+                <StackPanel x:Name="Panel5" IsVisible="False" Orientation="Horizontal"></StackPanel>
             </StackPanel>
-            
         </TabItem>
         <TabItem Header="Студенты">
             <DataGrid x:Name="Student"

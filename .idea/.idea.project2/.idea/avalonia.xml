@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="project2/App.axaml" value="project2/project2.csproj" />
+        <entry key="project2/Icons.axaml" value="project2/project2.csproj" />
         <entry key="project2/MainInt.axaml" value="project2/project2.csproj" />
         <entry key="project2/MainWindow.axaml" value="project2/project2.csproj" />
       </map>

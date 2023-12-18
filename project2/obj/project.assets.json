@@ -424,6 +424,28 @@
           "buildTransitive/netcoreapp3.0/EntityFramework.targets": {}
         }
       },
+      "FluentIcons.Avalonia/1.1.224": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0",
+          "FluentIcons.Common": "[1.1.224]"
+        },
+        "compile": {
+          "lib/net6.0/FluentIcons.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentIcons.Avalonia.dll": {}
+        }
+      },
+      "FluentIcons.Common/1.1.224": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentIcons.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentIcons.Common.dll": {}
+        }
+      },
       "Google.Protobuf/3.21.9": {
         "type": "package",
         "compile": {
@@ -2274,6 +2296,36 @@
         "tools/netcoreapp3.0/any/ef6.dll",
         "tools/netcoreapp3.0/any/ef6.pdb",
         "tools/netcoreapp3.0/any/ef6.runtimeconfig.json"
+      ]
+    },
+    "FluentIcons.Avalonia/1.1.224": {
+      "sha512": "SX0mSkelVkd+nbOFVOn0vUtbUq5WB+poeHOYppr10fzHKRllsAZcY9OJoPmBWG+6wrD9GT5hSw920MYWW3FVOg==",
+      "type": "package",
+      "path": "fluenticons.avalonia/1.1.224",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "fluenticons.avalonia.1.1.224.nupkg.sha512",
+        "fluenticons.avalonia.nuspec",
+        "lib/net6.0/FluentIcons.Avalonia.dll",
+        "lib/netstandard2.0/FluentIcons.Avalonia.dll",
+        "lib/netstandard2.1/FluentIcons.Avalonia.dll"
+      ]
+    },
+    "FluentIcons.Common/1.1.224": {
+      "sha512": "tvUKw1+wnBdX/sY0X1RffPE4PrHEjEAbxC7GZM3uv58nIj6XMvywiJ9FjipOCre91GULl0zvUcn8mO0bkNtw5g==",
+      "type": "package",
+      "path": "fluenticons.common/1.1.224",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "fluenticons.common.1.1.224.nupkg.sha512",
+        "fluenticons.common.nuspec",
+        "lib/netstandard2.0/FluentIcons.Common.dll"
       ]
     },
     "Google.Protobuf/3.21.9": {
@@ -4784,6 +4836,7 @@
       "Avalonia.Fonts.Inter >= 11.0.2",
       "Avalonia.Themes.Fluent >= 11.0.2",
       "CommunityToolkit.Mvvm >= 8.2.2",
+      "FluentIcons.Avalonia >= 1.1.224",
       "MessageBox.Avalonia >= 3.1.3",
       "MySql.Data >= 8.2.0",
       "MySql.Data.EntityFramework >= 8.2.0",
@@ -4791,31 +4844,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\turan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/KHPK.RU/student/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\turan\\RiderProjects\\project2\\project2\\project2.csproj",
+      "projectUniqueName": "/home/KHPK.RU/student/Рабочий стол/ИС(ПРО)-42/project2/project2/project2.csproj",
       "projectName": "project2",
-      "projectPath": "C:\\Users\\turan\\RiderProjects\\project2\\project2\\project2.csproj",
-      "packagesPath": "C:\\Users\\turan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\turan\\RiderProjects\\project2\\project2\\obj\\",
+      "projectPath": "/home/KHPK.RU/student/Рабочий стол/ИС(ПРО)-42/project2/project2/project2.csproj",
+      "packagesPath": "/home/KHPK.RU/student/.nuget/packages/",
+      "outputPath": "/home/KHPK.RU/student/Рабочий стол/ИС(ПРО)-42/project2/project2/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\turan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/KHPK.RU/student/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4862,6 +4908,10 @@
             "target": "Package",
             "version": "[8.2.2, )"
           },
+          "FluentIcons.Avalonia": {
+            "target": "Package",
+            "version": "[1.1.224, )"
+          },
           "MessageBox.Avalonia": {
             "target": "Package",
             "version": "[3.1.3, )"
@@ -4890,30 +4940,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
       }
     }
   }

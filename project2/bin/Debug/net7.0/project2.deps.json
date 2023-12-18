@@ -15,6 +15,7 @@
           "Avalonia.Fonts.Inter": "11.0.2",
           "Avalonia.Themes.Fluent": "11.0.2",
           "CommunityToolkit.Mvvm": "8.2.2",
+          "FluentIcons.Avalonia": "1.1.224",
           "MessageBox.Avalonia": "3.1.3",
           "MySql.Data": "8.2.0",
           "MySql.Data.EntityFramework": "8.2.0",
@@ -79,17 +80,17 @@
           "runtimes/win-arm64/native/av_libglesv2.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "2.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/av_libglesv2.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "2.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/av_libglesv2.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "2.1.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -319,6 +320,26 @@
           "lib/netstandard2.1/EntityFramework.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.400.420.21404"
+          }
+        }
+      },
+      "FluentIcons.Avalonia/1.1.224": {
+        "dependencies": {
+          "Avalonia": "11.0.2",
+          "FluentIcons.Common": "1.1.224"
+        },
+        "runtime": {
+          "lib/net6.0/FluentIcons.Avalonia.dll": {
+            "assemblyVersion": "1.1.224.0",
+            "fileVersion": "1.1.224.0"
+          }
+        }
+      },
+      "FluentIcons.Common/1.1.224": {
+        "runtime": {
+          "lib/netstandard2.0/FluentIcons.Common.dll": {
+            "assemblyVersion": "1.1.224.0",
+            "fileVersion": "1.1.224.0"
           }
         }
       },
@@ -737,27 +758,27 @@
           "runtimes/win-x64/native/comerr64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/gssapi64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/k5sprt64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/krb5_64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/krbcc64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -797,7 +818,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -806,7 +827,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -815,7 +836,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1283,6 +1304,20 @@
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
+    },
+    "FluentIcons.Avalonia/1.1.224": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SX0mSkelVkd+nbOFVOn0vUtbUq5WB+poeHOYppr10fzHKRllsAZcY9OJoPmBWG+6wrD9GT5hSw920MYWW3FVOg==",
+      "path": "fluenticons.avalonia/1.1.224",
+      "hashPath": "fluenticons.avalonia.1.1.224.nupkg.sha512"
+    },
+    "FluentIcons.Common/1.1.224": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tvUKw1+wnBdX/sY0X1RffPE4PrHEjEAbxC7GZM3uv58nIj6XMvywiJ9FjipOCre91GULl0zvUcn8mO0bkNtw5g==",
+      "path": "fluenticons.common/1.1.224",
+      "hashPath": "fluenticons.common.1.1.224.nupkg.sha512"
     },
     "Google.Protobuf/3.21.9": {
       "type": "package",

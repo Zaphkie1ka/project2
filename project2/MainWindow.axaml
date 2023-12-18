@@ -20,15 +20,15 @@
                                         Click="Button_OnClick" 
                                         HorizontalAlignment="Left" 
                                         Width="150" 
-                                        HorizontalContentAlignment="Center"></Button>
-                                <Label Content="">
-                                        
-                                </Label>
+                                        HorizontalContentAlignment="Center">
+                                </Button>
+                                <Label></Label>
                                 <Button Content="Забыли пароль?" 
                                         Click="Button_OnClick1" 
                                         HorizontalAlignment="Right"
                                         Width="150"
-                                        HorizontalContentAlignment="Center"></Button>
+                                        HorizontalContentAlignment="Center">
+                                </Button>
                         </Panel>
                 </StackPanel>
         </StackPanel>
